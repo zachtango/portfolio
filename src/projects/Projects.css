@@ -1,0 +1,39 @@
+.projects{
+    width: 90%;
+}
+
+/*Project*/
+.project{
+    border: 1px solid black;
+    padding: 12px 24px;
+    background-color: white;
+}
+
+.tags, .project .links{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 12px 0;
+}
+
+.tag{
+    max-width: fit-content;
+    padding: 2px 6px;
+    border: 2px solid #4680ff;
+    border-radius: 8px;
+    margin-right: 16px;
+    margin-top: 16px;
+
+}
+
+.link{
+    max-width: fit-content;
+    padding: 6px 12px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-right: 24px;
+}
+
+.link:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+[
+    {
+        "title": "Chip8 Emulator",
+        "desc": "I built an emulator that interprets machine code from the Chip8 Instruction Set. It reads instructions from a Chip8 ROM file and takes input from the keyboard and outputs graphics to the screen. You can play games like Tetris if you have the ROM files for them!",
+        "tags": ["C++", "SDL2"],
+        "github": "https://github.com/zachtango/chip8"
+    },
+    {
+        "title": "Royal Game of Ur",
+        "desc": "I built an online two-player board game version of the Royal Game of Ur, a board game played in Ancient Mesopotamia around 2400 BCE. I hosted the website using Namecheap and AWS.",
+        "tags": ["HTML", "CSS", "TypeScript", "NodeJs", "React", "Express", "sockets.io", "Namecheap", "AWS Route53", "AWS EC2"],
+        "demo": "http://royalgameofur.online/",
+        "github": "https://github.com/zachtango/royal-game-of-ur"
+    },
+    {
+        "title": "RetroTubing (RowdyHacks Best use of AssemblyAI API) 🏆",
+        "desc": "I worked in a team to develop a video service that records useres in a retro filter and translates their speech to a retro style text bubble live. I built the speech to text translation using the AssemblyAi service where I streamed speech to their API to have the text translation streamed back to our web server.",
+        "tags": ["AssemblyAI", "HTML", "CSS", "JavaScript", "NodeJs", "React", "Express"],
+        "demo": "https://devpost.com/software/retrotubing",
+        "github": "https://github.com/natesabrown/retrotubing_rowdyhacks2022"
+    },
+    {
+        "title": "Learn the Presidents Alexa Skill",
+        "desc": "I worked with my roommate to develop an Alexa Skill that's available on the Alexa app store for download. It provides important facts and quizzes to cement users' knowledge about the presidents. I built the quiz portion of the app that has 2 difficulties: normal and hard.",
+        "tags": ["Alexa Skills Kit", "NodeJs"],
+        "demo": "https://www.amazon.com/Developer-Learn-the-Presidents/dp/B09HBRDHWY/",
+        "github": "https://github.com/zachtango/learn-the-presidents"
+    },
+    {
+        "title": "Student Hub (HackTAMS 1st Place) 🏆",
+        "desc": "I worked with my classmate to develop an Alexa Skill that improves the residential life of students at TAMS. It provides curfew times; the availability of dorm amenities such as the public rooms, and washers and dryers; the availibility of UNT facilities such as the cafeterias, Pohl rec center, libraries, and bus times; and upcoming club events.",
+        "tags": ["Alexa Skills Kit", "JavaScript", "NodeJs", "React", "Firebase"],
+        "demo": "https://devpost.com/software/tams-student-hub",
+        "github": "https://github.com/zachtango/student-hub"
+    }
+]

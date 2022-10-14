@@ -1,19 +1,20 @@
+import Project from "./Project";
 
+import './Projects.css';
 
+import projects from './data.json';
 
 function Projects(){
-    <article>
-        <h2>Projects</h2>
 
-        <div>
-            chip8 Emulator,
-            royalgameofur,
-            web server,
-            retrotubing rowdyhacks prize
-            learn the presidents Alexa Skill,
-            student hub hacktams first place,
-        </div>
-    </article>
+    return (
+        <article className='projects'>
+            <h1>Projects</h1>
+
+            <div>
+                {projects.map(project => <Project {...project} />)}
+            </div>
+        </article>
+    );
 }
 
 
