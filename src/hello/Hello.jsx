@@ -7,7 +7,7 @@ function Hello(){
             <h1>Hello there, I'm Zach</h1>
 
             <p>
-                I'm a junior studying Computer Science. I've recently finished a SWE internship at Capital One, where I was able to develop
+                I'm studying Computer Science at The University of Texas at Dallas. I've recently finished a SWE internship at Capital One, where I was able to develop
                 an impactful and interesting project, and now I'm looking for Spring, Summer, and Fall'23 internship opportunities where I can continue
                 take responsibility and ownership of my work.
             </p>
